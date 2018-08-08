@@ -27,6 +27,3 @@ class NumbersTest(unittest.TestCase):
 		
 		res = Numbers().divide(num1, num2)
 		self.assertTrue(res is None)
-		
-if __name__ == "__main__":
-	unittest.main()
